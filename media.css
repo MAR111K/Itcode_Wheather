@@ -1,0 +1,84 @@
+@media all and (max-width: 750px) {
+
+    body{
+        height: min-content;
+    }
+    .items {
+        margin: 4vw auto;
+        display: flex;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+    }
+
+    .item {
+        padding: 1rem;
+        min-width: 34vw;
+        height: 50vw;
+        scroll-snap-align: start;
+        text-align: center;
+        position: relative;
+       
+    }
+    .item-hover{
+            padding: 1rem;
+            min-width: 34vw;
+            height: 50vw;
+            scroll-snap-align: start;
+            text-align: center;
+            position: relative;
+
+    }
+    .water, .feel, .text-city {
+        font-size: 2.2vw;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .title {
+        font-size: 4.3vw;
+        margin: 0 auto;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .temp {
+        font-size: 4.3vw;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    
+    .img {
+        margin: 0 auto;
+        width: 9vw;
+        height: 9vw;
+    }
+    btn-delete {
+        margin-top: 4vw;
+        margin-left: 80%;
+        width: 15vw;
+        height: 5vw;
+        border-radius: 10px;
+        border: 1px solid white;
+        font-size: 1vw;
+        color: white;
+        background-color: #84A59D
+    }
+    .arrow {
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-left: 50%;
+        position: absolute;
+        top: 92%;
+        right: 10%;
+    
+    }
+    
+
+
+    .img {
+        margin: 0;
+
+    }
+}
